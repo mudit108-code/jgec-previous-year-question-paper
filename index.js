@@ -1,7 +1,6 @@
-   
-   
-let menu = document.querySelector('.menu');
-let header = document.querySelector('header');
-menu.onclick = function () {
+const menu = document.querySelector('.menu');
+const header = document.querySelector('header');
+
+menu.addEventListener('click', function () {
     header.classList.toggle('active');
-}
+});
